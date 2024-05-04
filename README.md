@@ -32,3 +32,15 @@ Note: This section is for stages 2 and beyond.
    in `app/server.go`.
 1. Commit your changes and run `git push origin master` to submit your solution
    to CodeCrafters. Test output will be streamed to your terminal.
+
+# Addendum
+
+This repository contains a basic [Redis](https://redis.io) implementation of Golang. Core features are simple enough to fit into a single file:
+
+- Work with TCP protocol (listening to connections, reading and writing data to them)
+- Parsing a [Redis Protocol](https://redis.io/docs/latest/develop/reference/protocol-spec/)
+- [Ping command](https://redis.io/commands/ping/)
+- [Echo command](https://redis.io/docs/latest/commands/echo/)
+- [Set  command](https://redis.io/commands/set/)
+
+Application is located at `app/server.go`. Test file (interactive) is located at `app/test/test.go`.
